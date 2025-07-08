@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 80px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, 
+header nav a {
+    color: black;
+    text-decoration: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header nav {
+display: flex;
+gap: 48px;
+align-items: center;
+}
+
+header button{
+    background: black;
+    color: white;
+    width: 99px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-product{
+    margin: 56px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-product-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 110%;
+}

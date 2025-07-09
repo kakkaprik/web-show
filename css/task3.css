@@ -17,7 +17,10 @@ header{
 }
 
 .logo, 
-header nav a {
+header nav a, 
+.hero-product-about,
+.hero-product-add-details, 
+.product-card figcaption {
     color: black;
     text-decoration: 0;
     font-weight: 500;
@@ -30,7 +33,8 @@ gap: 48px;
 align-items: center;
 }
 
-header button{
+header button, 
+.hero-product-desc button{
     background: black;
     color: white;
     width: 99px;
@@ -38,6 +42,8 @@ header button{
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .hero-product{
@@ -50,10 +56,47 @@ header button{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 515px;
 }
 
 h1{
     font-size: 40px;
     font-weight: 600;
     line-height: 110%;
+}
+
+.hero-product-desc h2, 
+.hero-product-price,
+.products h2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.hero-product-desc h2, 
+.hero-product-about,
+.hero-product-add-details, 
+.product-card-about {
+    color: #828282;
+}
+
+.hero-product-desc button{
+    width: unset;
+}
+
+.hero-product-add-details{
+    font-size: 16px;
+}
+
+.product-cards{
+    margin: 24px 0px 120px;
+    display: flex;
+    gap: 32px;
+}
+
+.product-card{
+    flex: auto;
+}
+
+.product-card figcaption{
+    margin-top: 24px;
 }

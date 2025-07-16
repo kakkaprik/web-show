@@ -351,9 +351,5 @@ footer{
 
 .contacts__map {
         height: 300px;
+        width: 300px;
     }
-
-.copyright{
-    opacity: 0.44;
-
-}
